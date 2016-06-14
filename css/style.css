@@ -1,0 +1,151 @@
+body {
+	background-color: #2f2f2f;
+}
+
+p a {
+    color:inherit;
+}
+
+textarea {
+   resize: none;
+   background-color: #eae4c7;
+   color: #a07e00;
+}
+
+#header {
+    background-color: #c1b370;
+    color: #e0d9b7;
+    text-align: center;
+	padding-top: 0.2vh;
+	padding-bottom: 0.2vh;
+	min-width: 320px;
+	min-height: 100px;
+	width: 80vw;
+	height: 10vh;
+	border: solid;
+	border-bottom-width: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#nav {
+    line-height:30px;
+	width: 80vw;
+	min-width: 320px;
+    background-color:#e2bd00;
+    text-align: center;
+	align: center;
+	border-right: solid;
+	border-left: solid;
+	border-color: #e0d9b7;
+}
+
+#center {
+	background-color:#e2bd00;
+	width: 80vw;
+	min-width: 320px;
+	min-height: 650px;
+	border: solid;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-width: 2px;
+	border-color: #e0d9b7;
+}
+
+#table1 {
+	width: 80vw;
+	min-width: 320px;
+	min-height: 650px;
+}
+
+#center #main {
+    width: 60vw;
+}
+
+#center #aside {
+	height: 50vh;
+	width: 20vw;
+	border-left: solid;
+	border-color: #e0d9b7;
+	border-width: 2px;
+}
+
+#footer {
+    background-color: #c1b370;
+    color: #e0d9b7;
+    text-align: center;
+	width: 80vw;
+	min-width: 320px;
+	padding-top: 0.5vh;
+	padding-bottom: 0.5vh;
+	font-style:italic;
+	font-family:monospace;
+	border: solid;
+	border-radius: 10px;
+}
+
+#vid {
+   height: 165px;
+}
+
+#preview {
+   height: 150px;
+}
+
+.superpose {
+   position: absolute;
+}
+
+#video {
+   z-index: 0;
+}
+
+#picture {
+   z-index: 0;
+}
+
+#filter1 {
+   z-index: 1;
+}
+
+#filter2 {
+   z-index: 1;
+}
+
+.mini {
+	width: 15vw;
+	max-width: 150px;
+}
+
+.images {
+	width: 25vw;
+}
+
+.link1 {
+	color: #a07e00;
+}
+
+.link2 {
+	color: #81774a;
+	text-decoration: none;
+}
+
+.button1 {
+	background-color: #eae4c7;
+	text-align: center;
+	font-size: 15px;
+	min-width: 102px;
+	width: 25vw;
+	cursor: pointer;
+}
+
+.button1 a {
+    padding: 0.5vw;
+    text-decoration: none;
+    display: block;
+}
+
+.button1 a:hover {
+	background-color: #a07e00;
+	color: #eae4c7;
+}
